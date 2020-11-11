@@ -1,0 +1,40 @@
+* {
+ box-sizing: border-box;
+}
+body {
+  margin: none;
+}
+
+.input-display{
+  display: flex;
+  height: 2em;
+  
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.button-class{
+  width: 7em;
+  height: 5em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
